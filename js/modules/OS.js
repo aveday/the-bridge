@@ -244,7 +244,7 @@ window.OSBox = function(MENU,nBox,color,header,getNextDamageForType){
 	self.setOnOff = function(b){
 		menu.setOnOff(b);
 		
-		if(b) $el.animate({bottom:'0px'});
+		if(b) $el.animate({bottom:'40px'});
 		else $el.animate({bottom:'-500px'});
 
 	}
